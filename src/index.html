@@ -7,20 +7,21 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
+  <!-- Main container of the ToDo app -->
   <div class="container" id="container">
-    <div class="title-box">
-      <h2 class="title">To-Do list
-      </h2>
-      <i class='material-icons'>&#xE627;</i>
-    </div>
+    <!-- The block for adding new tasks -->
     <div class="input-box">
-      <input type="text" placeholder="Add to your list..." class="input">
-      <i class="material-icons">
+      <!-- User input for creating a new task -->
+      <input type="text" placeholder="Add to your list..." class="input" id="input">
+      <!-- 'Enter' button for submitting a new task -->
+      <i class="material-icons return-btn" id="return-btn">
         keyboard_return
       </i>
     </div>
+    <!-- List where the tasks will be displayed -->
     <ul class="to-do-list" id="to-do-list">
     </ul>
+    <!-- Button for removing all completed tasks -->
     <button type="submit" class="clear-btn">Clear all completed</button>
   </div>
 </body>
