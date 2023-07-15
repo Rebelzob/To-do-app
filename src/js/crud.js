@@ -104,7 +104,7 @@ class TodoApp {
       const newTask = { 
         description,
         completed: false,
-        index: this.todoTask.length,
+        index: this.todoTask.length + 1,
       };
       this.todoTask.push(newTask);
       this.updateLocalStorage();
@@ -119,14 +119,13 @@ class TodoApp {
     this.render();
   }
   // Edits task description, update local storage and the UI.
-  editTask(taskId, newDescription) {
-    const taskObject = this.todoTask.find(task => task.description === taskId);
-    if (taskObject) {
-      taskObject.description = newDescription;
+editTask(taskId, newDescription) {
+  if (this.todoTask[taskId]) {
+      this.todoTask[taskId].description = newDescription;
       this.updateLocalStorage();
-      this.render();
     }
   }
+
   //Persists the current state of tasks to the local storage
   updateLocalStorage() {
     localStorage.setItem('tasks', JSON.stringify(this.todoTask));
