@@ -1,5 +1,5 @@
 import './index.css';
-import TodoApp from './js/crud';
+import TodoApp from './modules/crud';
 const todoList = document.getElementById('to-do-list')
 let todoApp = new TodoApp(todoList);
 
