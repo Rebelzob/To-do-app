@@ -4,37 +4,37 @@
 <div align="center">
   
 
-  <h3><b>To-Do List</b></h3>
+  <h1><b>To-Do List</b></h1>
 
 </div>
 
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Awesome Books Website \] ](#-To-Do-List--)
-  - [🛠 Built With](#-built-with-html-css-and-javascript)
-    - [Tech Stack](#tech-stack-html-css-and-javascript)
+- [📖 [To-Do list ] ](#To-Do-List)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
     - [Key Features ](#key-features-)
-  - [💻 Getting Started ](#-getting-started-)
+  - [💻 Getting Started ](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
-  - [🔭 Future Features ](#-future-features-)
-  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#future-features)
+  - [👥 Authors ](#author)
   - [Contributions](#contributions)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+  - [⭐️ Show your support ](#️support)
+  - [🙏 Acknowledgments ](#acknowledgments)
+  - [📝 License ](#license)
 
 
-# 📖 [To-Do List ] <a name="about-project"></a>
+# 📖 [To-Do List ] <a name="To-Do-List"></a>
 **To Do List** is a project under microverse Module 2 block 2 aimed at testing our knowledge about the concepts learnt and to help us build an application to take in and display tasks.
-## 🛠 Built With 
+## 🛠 Built With <a name="build-with"></a>
 
 **HTML, CSS, JavaScript, Webpack**
 
-### Tech Stack 
+### Tech Stack <a name="tech-stack"></a>
 
 **HTML, CSS, JavaScript, Webpack**
 
@@ -48,23 +48,25 @@
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
+### Prerequisites <a name="prerequisites"></a>
 
 In order to run this project you need: A web browser.
-### Setup
+### Setup <a name="setup"></a>
 
 Clone this repository to your desired folder: 
 -git clone https://github.com/Rebelzob/To-do-app.git
 
-### Install
+### Install <a name="install"></a>
 
 _No installation is required, double click the index.html file to open it.
 npm i -y
 
-### Usage
+### Usage <a name="usage"></a>
 
 To run the project, execute the following command:
 -npm start
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -78,6 +80,7 @@ To run the project, execute the following command:
 - GitHub: [@Rebelzob](https://github.com/Rebelzob)
 - LinkedIn: [Karim-Barragan](https://www.linkedin.com/in/karim-barragan/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contributions
 
