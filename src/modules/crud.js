@@ -1,3 +1,4 @@
+import { updateCompletionStatus, clearAllCompleted } from './status';
 // This class creates a Todo application.
 class TodoApp {
   //Constructs the Todo App, fetch tasks from local storage and set up event listeners.
@@ -55,6 +56,11 @@ class TodoApp {
       let checkbox = document.createElement('input');
       checkbox.type = 'checkbox';
       checkbox.checked = task.completed;
+
+      checkbox.addEventListener('change', () => {
+        this.todoTask = updateCompletionStatus(i, checkbox.checked, this.todoTask);
+        this.updateLocalStorage();
+      });
       
       taskContent.appendChild(checkbox);
     
@@ -98,6 +104,13 @@ class TodoApp {
     // Persist the updates to local storage.
     this.updateLocalStorage();
   }
+  // Clears all completed tasks, updates local storage and the UI.
+  clearAllCompletedTasks() {
+    this.todoTask = clearAllCompleted(this.todoTask);
+    this.todoTask.forEach((task, index) => task.index = index + 1);
+    this.updateLocalStorage();
+    this.render();
+  }
   //Adds a new task with the supplied description, updates local storage and the UI.
   addTask(description) {
     if (description.trim() !== '') {
@@ -114,7 +127,7 @@ class TodoApp {
   // Deletes task with matching id, updates local storage and the UI.
   deleteTask(taskId) {
     this.todoTask.splice(taskId, 1);
-    this.todoTask.forEach((task, index) => task.index = index);
+    this.todoTask.forEach((task, index) => task.index = index + 1);
     this.updateLocalStorage();
     this.render();
   }
