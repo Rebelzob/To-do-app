@@ -44,9 +44,7 @@
 - **Contains a list of tasks that can be added, removed and marked as compelted**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### LiveDemo
-[Live Demo] You can see the live Demo of the website here 
+ 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 

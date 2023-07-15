@@ -31,6 +31,15 @@ li {
 .input {
   font-style: italic;
   border: none;
+  padding: 15px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  outline: none;
+}
+
+.material-icons {
+  cursor: pointer;
 }
 
 .container {
@@ -40,6 +49,10 @@ li {
   height: auto;
   padding: 10px;
   border: 1px solid rgb(205 205 205);
+}
+
+.description {
+  outline: none;
 }
 
 .to-do-list {
