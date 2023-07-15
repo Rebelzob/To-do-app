@@ -15,13 +15,11 @@
   - [🛠 Built With](#-built-with-html-css-and-javascript)
     - [Tech Stack](#tech-stack-html-css-and-javascript)
     - [Key Features ](#key-features-)
-    - [LiveDemo](#livedemo)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
-    - [Project\_presentation](#project_presentation)
   - [🔭 Future Features ](#-future-features-)
   - [👥 Authors ](#-authors-)
   - [Contributions](#contributions)
@@ -56,7 +54,7 @@ In order to run this project you need: A web browser.
 ### Setup
 
 Clone this repository to your desired folder: 
--git clone 
+-git clone https://github.com/Rebelzob/To-do-app.git
 
 ### Install
 
@@ -68,8 +66,7 @@ npm i -y
 To run the project, execute the following command:
 -npm start
 
-### Project_presentation
-[Project Presentation] You can see the live presentation of the key concepts taken into account while creating this project here: 
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ]  **Add more functionalities**
