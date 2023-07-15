@@ -104,7 +104,7 @@ class TodoApp {
     // Persist the updates to local storage.
     this.updateLocalStorage();
   }
-
+  // Clears all completed tasks, updates local storage and the UI.
   clearAllCompletedTasks() {
     this.todoTask = clearAllCompleted(this.todoTask);
     this.updateLocalStorage();
