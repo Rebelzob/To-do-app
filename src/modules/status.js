@@ -3,4 +3,4 @@ export const updateCompletionStatus = (taskId, status, tasks) => {
   return tasks;
 };
 
-export const clearAllCompleted = (tasks) => tasks.filter(task => !task.completed);
+export const clearAllCompleted = (tasks) => tasks.filter((task) => !task.completed);
